@@ -1,0 +1,77 @@
+/*Texte*/
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color:#555;
+    padding : 3%;
+    background-image: linear-gradient(20deg, #FFE4BA,#936a4f);
+    text-align:justify;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #D2B48C ;
+    margin-bottom: 20px;
+}
+hr {
+    background-color: #D2B48C;
+    border : none;
+    height : 3px
+}
+header { 
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 95%;
+    padding: 1% 2%;
+    text-align: justify;
+}
+h1{
+    text-shadow: 1.5px 1.5px grey;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    text-align:center;
+}
+span{
+    text-decoration: underline;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 95%;
+    padding: 1% 2%;
+    text-align: justify;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 95%;
+    padding: 1% 2%;
+    text-align: justify;
+}
+footer{
+    text-align: right;
+}
+/*Image*/
+.centre{
+    text-align: center;
+}
+/*Flex decoration*/
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+/*CSS liens*/
+a:visited, a:link{
+    text-decoration:none;
+    color:#555;
+}
+:active{
+    color:#936a4f;
+}
+a:hover{
+    color: sandybrown;
+}
+#picture {
+    float:left;
+    width: 150%;
+}
